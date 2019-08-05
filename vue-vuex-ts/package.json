@@ -1,0 +1,29 @@
+{
+  "name": "vue-vuex-ts",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "ts-node": "^8.3.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.2.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.1",
+    "vuex-class-component": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@types/node": "^12.6.8",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "vue-loader": "^15.7.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
