@@ -1,0 +1,15 @@
+{
+  "name": "@tokuda109/playground-react-hooks",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "next"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "next": "^9.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
