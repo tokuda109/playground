@@ -1,9 +1,9 @@
-# vue-vuex-ts
+# ts-vue-vuex
 
-vue と vuex を TypeScript 化する時のセットアップ例。
+[Vue.js](https://vuejs.org/)と[Vuex](https://vuex.vuejs.org/)をTypeScript化する時のセットアップ例。
 
-* vue を [vue-property-decorator](https://www.npmjs.com/package/vue-property-decorator)([vue-class-component](https://www.npmjs.com/package/vue-class-component)) で TS 化
-* vuex を [vuex-class-component](https://www.npmjs.com/package/vuex-class-component) で TS 化
+* Vue.jsを[vue-property-decorator](https://www.npmjs.com/package/vue-property-decorator)([vue-class-component](https://www.npmjs.com/package/vue-class-component))でTypeScript化
+* Vuexを[vuex-class-component](https://www.npmjs.com/package/vuex-class-component)でTypeScript化
 
 ## 始め方
 
