@@ -1,0 +1,7 @@
+{
+  "name": "playground",
+  "private": true,
+  "dependencies": {
+    "firebase-tools": "^7.3.2"
+  }
+}
