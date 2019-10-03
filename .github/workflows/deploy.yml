@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - name: install dependencies
+      run: |
+        npm install
     - name: deploy to firbase
       run: |
-        ./node_modules/.bin/firebase deploy --project=tokuda-playground-gh-actions --token=$FIREBASE_TOKEN
+        ./node_modules/.bin/firebase deploy --project=tokuda-playground-gh-actions --token=${{ secrets.FIREBASE_TOKEN }}
