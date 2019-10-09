@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package post;
+
+service Post {
+    rpc find(PostRequest) returns (PostResponse) {}
+}
+
+message PostRequest {
+    string title = 1;
+}
+
+message PostResponse {
+    string title = 1;
+}
